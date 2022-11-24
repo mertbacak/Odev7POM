@@ -6,7 +6,7 @@
 mvn test
 
 Tüm Otomobil Kategori İlan Listesi KM, ilan Başlığı,Fiyat Bilgisi İlan Detay Karşılaştırma Testlerini Koşmak için
-mvn test -Dtest="AutoMobileSearch"
+|mvn test -Dtest="AutoMobileSearch"|
 
 Popüler Arama Testleri Koşmak için
 mvn test -Dtest="PopularCategoryTest"
