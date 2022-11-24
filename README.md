@@ -20,25 +20,25 @@
 `mvn test -Dtest="LoginClass"`
 
 
- --Login Username şifre boş Case'ini koşmak için <br>
+ --Login Username şifre boş Case'ini koşmak için <br/>
 `mvn test -Dtest="LoginClass#loginDetailUsernameAndPasswordempty"`
+<br/>
 
-
---Login Usernam alanı dolu Şifre alanı boş Case'ini koşmak için
+--Login Usernam alanı dolu Şifre alanı boş Case'ini koşmak için <br/>
 
 `mvn test -Dtest="LoginClass#loginDetailUsernameFilledAndPasswordEmpty"`
+<br/>
 
-
---Login Username alanı boş Şifre alanı dolu Case'ini koşmak için
+--Login Username alanı boş Şifre alanı dolu Case'ini koşmak için <br/>
 `[mvn test -Dtest="LoginClass#loginDetailUsernameEmptyAndPasswordFilled"]`
 
+<br/>
+--Login Username ya da şifre alanı yanlış bilgi girildiğinde Case'ini koşmak için<br/>
+`mvn test -Dtest="LoginClass#loginusernameorpasswordwrong"` <br/>
 
---Login Username ya da şifre alanı yanlış bilgi girildiğinde Case'ini koşmak için
-`mvn test -Dtest="LoginClass#loginusernameorpasswordwrong"`
 
-
- --Login başarılı senaryosunu koşmak için
- `mvn test -Dtest="LoginClass#loginSuccess"`
+ --Login başarılı senaryosunu koşmak için <br/>
+ `mvn test -Dtest="LoginClass#loginSuccess"` <br/>
 
 ## Emlak İlan Verme Senaryosunu
 `mvn test -Dtest="ClassifiedCreate"`
