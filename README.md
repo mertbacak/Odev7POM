@@ -44,11 +44,12 @@ mvn test -Dtest="SearchResult#searcResultCarYearPriceSortingFilter"
 Caselerin Detayları
 
 -----Login Senaryosu(Login Class) -----
-Login senaryosunda 5 farklı case yazılmıştır.
-------
+**Login senaryosunda 5 farklı case yazılmıştır.**
+
 loginDetailUsernameAndPasswordempty test methodunda ;
 username ve passwordalanın boş bırakılır ve giriş butonuna tıklanır.
 Username ve password textbox alanının altında çıkan hataların doğru geldiği kontrol edilmiştir.
+
 -----
 loginDetailUsernameFilledAndPasswordEmpty test methodunda;
 username alanına vasitasupermagaza girilir password alanı boş
